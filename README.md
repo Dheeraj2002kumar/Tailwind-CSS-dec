@@ -8,3 +8,4 @@
 - Hands-on-TailwindCSS
     - 01_style_a_button_with_tailwind
     - Center a Div using flexbox
+    - Create a basic grid layout
