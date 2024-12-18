@@ -9,3 +9,5 @@
     - 01_style_a_button_with_tailwind
     - Center a Div using flexbox
     - Create a basic grid layout
+    - Apply box shadow to a card using tailwind css
+    
