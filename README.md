@@ -11,4 +11,7 @@
     - Create a basic grid layout
     - Apply box shadow to a card using tailwind css
     - create a donut shape using tailwind css
+    - Add blur effect an image
+    - create a gradient colored
+    - credate a rotating shape  box using taiwind css
 
