@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04_Build_any_layout_with_Tailwind-masterClass</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body>
+    <h2 class="text-center font-bold text-lg">Equal Section</h2>
+    <div class="m-4 grid gird-cols-2 sm:grid-cols-2">
+        <div class="min-h-[100px] rounded-lg bg-orange-500 shadow"></div>
+        <div class="min-h-[100px] rounded-lg bg-teal-500 shadow"></div>
+    </div>
+<hr>
+    <div class="m-4 grid gap-4 sm:grid-cols-4">
+        <div class="min-h-[100px] rounded-lg bg-orange-500 shadow"></div>
+        <div class="min-h-[100px] rounded-lg bg-teal-500 shadow"></div>
+        <div class="min-h-[100px] rounded-lg bg-red-500 shadow"></div>
+        <div class="min-h-[100px] rounded-lg bg-purple-800 shadow"></div>
+    </div>
+
+    <h2 class="text-center font-bold text-lg">Non-Equal Section</h2>
+
+    <div class="m-4 grid grid-cols-1 gap-4 sm:grid-cols-12">
+        <div class="sm:col-span-2 min-h-[100px] rounded-lg bg-orange-500 shadow"></div>
+        <div class="sm:col-span-10 min-h-[100px] rounded-lg bg-teal-500 shadow"></div>
+       
+    </div>
+
+    <h2 class="text-center font-bold text-lg">Tailwind UI layout</h2>
+    <div class="m-4 grid grid-cols-1 gap-4 sm:grid-cols-12">
+        <div class="sm:col-span-2 min-h-[100px] rounded-lg bg-orange-500 shadow sm:block hidden"></div>
+        <div class="sm:col-span-8 min-h-[100px] rounded-lg bg-teal-500 shadow"></div>
+        <div class="sm:col-span-2 min-h-[100px] rounded-lg bg-purple-500 shadow sm:block hidden"></div>
+       
+    </div>
+
+
+</body>
+</html>
