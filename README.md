@@ -7,4 +7,4 @@
 - Build any layout with Tailwind - masterClass
 - Hands-on-TailwindCSS
     - 01_style_a_button_with_tailwind
-    
+    - Center a Div using flexbox
