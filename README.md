@@ -10,4 +10,5 @@
     - Center a Div using flexbox
     - Create a basic grid layout
     - Apply box shadow to a card using tailwind css
-    
+    - create a donut shape using tailwind css
+
